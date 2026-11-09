@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inchward — Privacy Policy</title>
+<style>
+  :root { --bg:#0E1220; --surface:#161B2E; --text:#E8EAF6; --dim:#B9BFD9; --amber:#FFC247; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; padding:40px 20px; }
+  article { max-width:720px; margin:0 auto; }
+  h1 { font-size:32px; margin-bottom:4px; }
+  .sub { color:var(--dim); font-size:14px; margin-bottom:30px; }
+  h2 { font-size:19px; margin:26px 0 8px; color:var(--amber); }
+  p, li { color:var(--dim); line-height:1.65; margin-bottom:10px; }
+  ul { padding-left:22px; margin-bottom:10px; }
+  a { color:var(--amber); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .home { margin-top:36px; font-size:14px; }
+</style>
+</head>
+<body>
+<article>
+  <h1>Privacy Policy</h1>
+  <div class="sub">Inchward &middot; Last updated: November 9, 2026</div>
+
+  <p>Inchward is a personal focus assistant app. This policy explains what happens to information in and around the app. The short version: your data lives on your phone, and the AI features use your own provider account.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. The app contains no analytics, no advertising SDKs, and no tracking of any kind. We do not operate a server and we cannot see your goals, chats, or activity.</p>
+
+  <h2>What stays on your device</h2>
+  <p>Everything you create — goals, chats, compressed context, wins, check-ins, settings, and your AI provider API keys — is stored only in the app's private storage on your device. API keys are additionally encrypted using the Android Keystore.</p>
+
+  <h2>What leaves your device, and to whom (you choose)</h2>
+  <ul>
+    <li>AI features (onboarding, goal chats, step design, reviews) send the relevant text to the LLM provider you configure (for example Ollama Cloud, Z.AI, OpenAI, Groq, or a custom endpoint), using your own API key. Those requests are governed by your provider's terms and privacy policy.</li>
+    <li>If you enable web search, your search queries are sent to the search provider you configure (Tavily or Brave), using your own API key.</li>
+    <li>If you attach images in chats, those images are sent to your configured AI provider so its vision model can see them.</li>
+    <li>Backups: the export file you create is written only to the location you pick. It contains your goals, chats, wins and settings, but never your API keys.</li>
+  </ul>
+
+  <h2>Data deletion</h2>
+  <p>Uninstalling the app removes all local data, including stored (encrypted) API keys. Export files you created are yours to keep or delete wherever you saved them.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li>Notifications: used only for the daily check-in reminder you configure. No marketing.</li>
+    <li>Speech recognition (voice input): audio is processed by your device's speech service only when you tap the microphone button; nothing is recorded or stored by us.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>We will update this page if the app's data practices change, with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Email <a href="mailto:contact@inchward.app">contact@inchward.app</a>.</p>
+
+  <div class="home"><a href="/">&larr; Inchward</a></div>
+</article>
+</body>
+</html>
